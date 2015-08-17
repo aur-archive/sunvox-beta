@@ -1,0 +1,27 @@
+v1.7.3 BETA 2 (18 mar 2013):
+* sound engine optimization;
+* new ASIO driver options;
+* Input Module (Mic/Line-in capture) is now also available for Linux (ALSA), Windows (MME,DirectSound,ASIO), Windows Mobile (with full duplex drivers only) and OSX;
+* extended list of the audio buffer sizes in the Preferences->Audio: 128, 256, 512, 768, 1024, 1280, 1536, 1792, 2048, 2560, 3072, 4096;
+* new options in the Preferences->Audio: Driver, Output Device, Input Device, Frequency;
+* added options for the MultiSynth: Use static note C5 (treat all received notes as C5); Ignore notes with zero velocity;
+* new Pattern Editor function - Slice by cursor;
+* bugs fixed.
+v1.7.3 BETA 1 (10 jan 2013):
+* added MIDI import; now you can load any MIDI files directly through the Load Song dialog;
+* added support of the following MIDI commands: Start, Continue, Stop;
+* number of MetaModule User Defined Controllers can be changed from 0 to 13;
+* added MIDI Omni Mode (all MIDI channels will be accepted);
+* new option in the Preferences->User interface: Show virtual keyboard; use it to show or hide virtual text keyboard;
+* scrolling when highlighting in the Sample Editor;
+* per-pattern Mute/Solo (Timeline menu -> Toggle mute / Toggle solo);
+* Vorbis Player is now supports the sample offset commands (09 and 07);
+* added ability to create a new pattern by double clicking on an empty area of the Timeline;
+* new Timeline function - Slice Pattern(s) (knife position = current playing position);
+* new std. pattern effect 23 - set controller value to the random number with range from XX (00..FF) to YY (00..FF);
+* new std. pattern effect 1F - set BPM;
+* new songs: Manwe - Early Fall remake (original by Tangrine); Kostya Mahnev - Midnight; take_my_hand;
+* new simple examples: metamodule_test, metamodule_with_automation, random_ctl_values_with_range;
+* new instrument (pads): moving_pad, vocal_synth, filter_slide_up;
+* new instrument (keyboard): fm2;
+* bugs fixed.
